@@ -6,8 +6,4 @@
 Алгоритмы сортировки
 1. Чётно-нечётная сортировка (Odd-even sort).
 2. Сортировка вставками (Insertion sort).*/
-#include <stdio.h>
-typedef struct {
-    char fullname;
-    
-}Sub;
+
