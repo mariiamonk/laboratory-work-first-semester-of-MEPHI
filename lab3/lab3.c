@@ -15,7 +15,7 @@ int main() {
     printf("PLEASE ENTER N:");
     N = checkValuesInt(N);
     while(1){
-        printf("PLEASE CHOOSE COMMAND:\n1 - ADD ELEM\n2 - DEL ELEM\n3 - TASK (IN THE INITIAL SEQUENCE OF REAL NUMBERS,\nFIND THOSE WHOSE FRACTIONAL PART,\nREPRESENTED AS AN INTEGER, EXCEEDS\nTHEIR INTEGER PART IN ABSOLUTE >        n = checkValuesInt(n);
+        printf("PLEASE CHooSE COMMAND:\n1 - ADD ELEM\n2 - DEL ELEM\n3 - TASK (IN THE INITIAL SEQUENCE OF REAL NUMBERS,\nFIND THOSE WHOSE FRACTIONAL PART,\nREPRESENTED AS AN INTEGER, EXCEEDS\nTHEIR INTEGER PART IN ABSOLUTE >        n = checkValuesInt(n);
         switch (n) {
             case 1:
                 printf("PLEASE ENTER X:");
