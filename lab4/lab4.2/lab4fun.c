@@ -102,12 +102,12 @@ char *task(const char *str){
     while (word != NULL) {
         int w_len = mystrlen(word);
         if (word[w_len - 1] == letter) {
-            memcpy(res + len, word, w_len * sizeof(char));
+            mymemcpy(res + len, word, w_len * sizeof(char));
             len += w_len;
             res[len] = ' ';
             ++len;
         }else{
-            memcpy(mid + mid_len, word, w_len *  sizeof(char));
+            mymemcpy(mid + mid_len, word, w_len *  sizeof(char));
             mid_len += w_len;
             mid[mid_len] = ' ';
             ++mid_len;
@@ -116,7 +116,7 @@ char *task(const char *str){
     }
     free(s);
     free(word);
-    memcpy(res + len, mid, mid_len * sizeof(char));
+    mymemcpy(res + len, mid, mid_len * sizeof(char));
     len += mid_len;
     if (len > 0) {
         --len;
