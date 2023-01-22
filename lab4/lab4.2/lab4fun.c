@@ -40,8 +40,8 @@ char* myreadline(const char *prompt){
     return ptr;
 }
 
-void* mymemcpy(void* ptr, const void* n_arr, size_t size){
-    const char* n_arr = (char*)n_arr;
+void* mymemcpy(void* ptr, const void* arr, size_t size){
+    const char* arr = (char*)n_arr;
     char* n_ptr = (char*)ptr;
     for (size_t i = 0; i < size; ++i){
         *n_ptr++ = *n_arr++;
